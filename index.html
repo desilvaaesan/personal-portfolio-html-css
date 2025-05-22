@@ -11,19 +11,22 @@
   <header class="header">
     <nav class="nav container">
       <h1 class="logo">Aesan De Silva</h1>
-      <ul class="nav__list">
+      <button class="burger" id="burger">&#9776;</button>
+      <ul class="nav__list" id="nav-list">
         <li><a href="#about">About</a></li>
         <li><a href="#resume">Resume</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+
   <section class="hero">
     <div class="container">
       <h2>Hello, I'm Aesan De Silva</h2>
-      <p>Aspiring Full Stack Web Developer with a passion for design, development, and clean code.</p>
+      <p>Frontend Developer with a passion for design, development, and clean code.</p>
       <a href="#projects" class="btn">View My Work</a>
     </div>
   </section>
@@ -35,7 +38,7 @@
     </div>
     <div class="about__text">
       <h2>About Me</h2>
-      <p>I’m a Full Stack Web Developer passionate about building accessible and user-focused websites. I enjoy clean aesthetics, purposeful design, and continuous learning.</p>
+      <p>I’m a Frontend Developer passionate about building accessible and user-focused websites. I enjoy clean aesthetics, purposeful design, and continuous learning.</p>
     </div>
   </div>
 </section>
@@ -45,11 +48,13 @@
     <h2>Resume</h2>
 
     <h3>Education</h3>
-    <p>B.S. in Information Technology, Bulacan State University, 2024-present</p>
+    <p>B.S. in Information Technology, Bulacan State University, 2024-2025</p>
     <br>
     <h3>Experience</h3>
     <ul>
-        <strong>Capstone: Inventory Management System- iRIG Computers | 2023 - 2024 </strong> 
+        <strong>Frontend Developer & UI/UX Specialist  | 2023 - 2024 </strong> 
+        <p>Web-Based Inventory Management System (Capstone Project for iRig Computer Trading) </p>
+        <p>Caloocan, Metro Manila </p>
         <ul class="experience-details">
           <li>Developed front-end and back-end logic, ensuring seamless component integration.</li>
           <li>Led the web design resulting in responsive design and intuitive user experience.</li>
@@ -84,20 +89,42 @@
       </div>
     </div>
   </section>
+  
+    <section id="certificates" class="section certificates">
+  <div class="container">
+    <h2>Certificates</h2>
+    <div class="certificates__grid">
+      <div class="certificate-card">
+        <img src="assets/UDEMY_ANGULAR.jpg" alt="Certificate 1">
+        <h3>Angular – The Complete Guide (2025 Edition)</h3>
+        <p>Issued by Udemy - March 20, 2025</p>
+      </div>
+      <div class="certificate-card">
+        <img src="assets/UDEMY_FULLSTACK_CERTIFICATE.jpg" alt="Certificate 2">
+        <h3>The Complete Full-Stack Web Development Bootcamp</h3>
+        <p>Issued by Udemy - March 4, 2025</p>
+      </div>
+    </div>
+  </div>
+  </section>
 
   <section id="contact" class="section contact">
     <div class="container">
       <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:aesanclyde.desilva@example.com">aesanclyde.desilva@example.com</a></p>
+      <p>Email: <a href="mailto:aesanclyde.desilva@gmail.com">aesanclyde.desilva@example.com</a></p>
       <p>LinkedIn: <a href="https://linkedin.com/in/aesandesilva" target="_blank">Aesan Clyde De Silva</a></p>
       <p>GitHub: <a href="https://github.com/desilvaaesan" target="_blank">@desilvaaesan</a></p>
     </div>
   </section>
 
+
   <footer class="footer">
     <div class="container">
       <p>&copy; 2025 Aesan De Silva. All rights reserved.</p>
     </div>
+
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
